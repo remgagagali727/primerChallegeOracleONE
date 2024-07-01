@@ -1,0 +1,120 @@
+html{
+    background-color: #E5E5E5;
+}
+
+body{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+}
+
+.principal {
+    width: 70%;
+    height: 100vh;
+}
+
+.titulo {
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.textoTitulo {
+    margin-left: 30px;
+    color: #29136A;
+    font-size: 30px;
+}
+
+.CampoPrincipal {
+    width: 90%;
+    height: 55%;
+    resize: none;
+    margin: 0 5%;
+    border: 0px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+}
+
+.divAlerta {
+    margin: 40px 15% 0;
+    display: flex;
+    padding: 10px 0;
+}
+
+.alerta {
+    color: gray;
+    margin-left: 2px;
+}
+
+.zonaDeBotones {
+    margin: 0 15%;
+    display: flex;
+}
+
+.botonesEncriptacion {
+    border-color: #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#botonEncripta {
+    color: white;
+    background-color: #0A3871;
+}
+
+#botonDesencripta {
+    color: #0A3871;
+    background-color: white;
+}
+
+.footer {
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.mostrarTexto {
+    width: 20%;
+    height: 100vh;
+    margin-left: 100px;
+}
+
+.texto {
+    padding: 20px;
+    align-items: end;
+    height: 90%;
+    margin: 5% auto 0;
+    background-color: white;
+    border-radius: 32px;
+}
+
+.sintexto {
+    margin-top: 30%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.fontTipica {
+    font-size: 20px;
+    color: #29136A;
+}

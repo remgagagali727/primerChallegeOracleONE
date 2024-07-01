@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" name="viewport">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <div class="principal">
+            <div class="titulo">
+                <img src="img/logo.png" alt="logo">
+                <p class="textoTitulo">¡Encriptador y desencriptador de palabras!</p>
+            </div>
+            <textarea name="CampoPrincipal" class="CampoPrincipal" placeholder="Ingrese el texto aqui" id="textArea"></textarea>
+            <div class="divAlerta">
+                <img src="img/alert.png" alt="alert" class="imgAlerta">
+                <p class="alerta">Solo letras minisculas y sin acentos</p>
+            </div>
+            <div class="zonaDeBotones">
+                <button class="botonesEncriptacion" id="botonEncripta">
+                    ¡Encripta!
+                </button>
+                <button class="botonesEncriptacion" id="botonDesencripta">
+                    ¡Desencripta!
+                </button>
+            </div>
+            <div class="footer">
+                Pagina Creada por Rembrandt Gerardo Tovar Marroquín 2024
+            </div>
+        </div>
+        <div class="mostrarTexto">
+            <div class="texto" id="resultado">
+                <img src="img/sintexto.png" alt="No se encontro texto" class="sintexto">
+                <p class="fontTipica"></p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
